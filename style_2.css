@@ -1,0 +1,36 @@
+div{
+    border: olivedrab solid 2px;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+section{
+
+    border: rosybrown solid 6px;
+    display: flex;
+
+    justify-content:center;
+    gap:10px;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+
+}
+
+#myboton{
+
+    width: 90px;
+    height: 60px;
+}
+
+#pizarra{
+    width: 200px;
+    height: 100px;
+}
