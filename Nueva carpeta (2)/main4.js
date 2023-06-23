@@ -1,17 +1,46 @@
 function ejemplo1(){
+    
+    let numero01, numero02;
+    let almacen = "";
+
+    
 
 
-    let dato = document.getElementById("dato").value;
+    
+    document.getElementById("pizarra").value = almacen;
+    numero01 = document.getElementById("dato1").value;
+    numero02 = document.getElementById("dato3").value;
+
+    numero01 = parseInt(numero01);
+    numero02 = parseFloat(numero02);
 
    // alert(dato);
 
-   document.getElementById("pizarra").value = dato;
 
   //document.getElementById("pizarra").value ="";
+
+  almacen = (numero01 + numero02);
+  document.getElementById("pizarra").value = almacen;
    
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+//------------------------------------------------------------------>
+
+
+
+
+
+
 
 let name = 'dani',
  age = 32, 
